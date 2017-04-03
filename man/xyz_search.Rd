@@ -31,7 +31,7 @@ p<-1000
 #construct a binary matrix
 X<-matrix(sample(c(-1,1),replace=TRUE,n*p),n,p)
 #set an interaction of the pair (1,2)
-Y<-X[,1]*X[,2]
+Y<-X[,1]*X[,2]+rnorm(n)
 #run the interaction search
 result<-xyz_search(X,Y,L=10,N=10,binary=TRUE,negative=TRUE)
 #print the result
@@ -40,4 +40,3 @@ print(result)
 \references{
 G. Thanei, N. Meinshausen and R. Shah (2016). The xyz algorithm for fast interaction search in high-dimensional data. <https://arxiv.org/pdf/1610.05108v1.pdf>
 }
-

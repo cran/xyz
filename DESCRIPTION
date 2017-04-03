@@ -2,7 +2,7 @@ Package: xyz
 Type: Package
 Title: The 'xyz' Algorithm for Fast Interaction Search in
         High-Dimensional Data
-Version: 0.1
+Version: 0.2
 Date: 2016-10-17
 Maintainer: Gian-Andrea Thanei <thanei@stat.math.ethz.ch>
 Author: Gian-Andrea Thanei
@@ -13,11 +13,11 @@ License: GPL
 LazyData: TRUE
 Imports: stats, Rcpp (>= 0.12.6)
 LinkingTo: Rcpp
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 Suggests: knitr, rmarkdown
 VignetteBuilder: knitr
 SystemRequirements: C++11
 NeedsCompilation: yes
-Packaged: 2016-11-04 08:15:28 UTC; thaneig
+Packaged: 2017-04-03 15:18:04 UTC; rds37
 Repository: CRAN
-Date/Publication: 2016-11-05 00:43:10
+Date/Publication: 2017-04-03 16:39:20 UTC
